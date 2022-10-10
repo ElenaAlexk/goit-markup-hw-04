@@ -117,7 +117,7 @@ ol {
 }
 .nav-icon:hover,
 .nav-icon:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .auth-nav .item + .item {
   margin-left: 50px;
