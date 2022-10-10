@@ -107,6 +107,13 @@ ol {
   display: flex;
   margin-left: auto;
 }
+.link {
+  display: flex;
+  align-items: center;
+}
+.nav-icon {
+  margin-right: 10px;
+}
 .auth-nav .item + .item {
   margin-left: 50px;
 }
