@@ -326,6 +326,10 @@ img {
   margin-top: 16px;
   gap: 10px;
 }
+.icon-gal {
+  display: block;
+  width: 44px;
+}
 .team-list {
   display: flex;
   flex-wrap: wrap;
