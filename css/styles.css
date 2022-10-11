@@ -240,6 +240,17 @@ img {
   display: flex;
   gap: 30px;
 }
+.item-section {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background: #f5f4fa;
+}
+
 .section-work {
   padding-top: 0px;
   padding-bottom: 94px;
@@ -255,6 +266,7 @@ img {
   text-align: center;
 }
 .section-subtitle {
+  margin-top: 30px;
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 700;
