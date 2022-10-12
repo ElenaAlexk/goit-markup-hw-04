@@ -380,7 +380,44 @@ img {
 .item .link {
   text-decoration: none;
 }
-
+/* Clients */
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.clients-item {
+  flex-basis: calc((100% - 150) / 6);
+}
+.clients-link {
+  display: flex;
+  box-sizing: border-box;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+.clients-icon {
+  fill: #afb1b8;
+}
+.clients-icon:hover {
+  fill: var(--accent-color);
+}
 /* Футер */
 .footer {
   padding-top: 60px;
