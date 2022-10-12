@@ -407,17 +407,21 @@ img {
   width: 170px;
   height: 92px;
   padding: 16px 32px;
-  border: 1px solid #afb1b8;
+  border-color: 1px solid #afb1b8;
   border-radius: 4px;
   align-items: center;
   justify-content: center;
+  color: #afb1b8
 }
 .clients-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
-.clients-icon:hover {
-  fill: var(--accent-color);
+.clients-link:hover {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
+
+
 /* Футер */
 .footer {
   padding-top: 60px;
