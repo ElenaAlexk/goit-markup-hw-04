@@ -327,8 +327,22 @@ img {
   gap: 10px;
 }
 .icon-gal {
-  display: block;
+  display: flex;
   width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-text-color);
+}
+.icon-link {
+  fill: #afb1b8;
+}
+.icon-gal:hover {
+  background: var(--accent-color);
+}
+.icon-link:hover {
+  fill: var(--primary-text-color);
 }
 .team-list {
   display: flex;
