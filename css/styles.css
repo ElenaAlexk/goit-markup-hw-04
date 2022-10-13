@@ -241,6 +241,7 @@ img {
   flex-basis: calc((100% - 90px) / 4);
 }
 .icons {
+  padding: 25px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
