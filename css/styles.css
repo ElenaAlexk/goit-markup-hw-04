@@ -427,7 +427,10 @@ img {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
-
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
 .footer-item {
   font-style: normal;
   font-weight: 400;
@@ -465,4 +468,35 @@ img {
 }
 .footer-text {
   margin-bottom: 9px;
+}
+/*  Social links in footer */
+.footer-socials {
+  margin-left: 70px;
+  outline: 2px solid tomato;
+}
+.social-text {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+.social-footer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  fill: var(--primary-text-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-link:hover {
+  background: var(--accent-color);
 }
