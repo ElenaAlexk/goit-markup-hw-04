@@ -333,17 +333,17 @@ img {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  color: #afb1b8;
   background: var(--primary-text-color);
 }
 .icon-link {
-  fill: #afb1b8;
+  fill: currentColor;
 }
 .icon-gal:hover {
+  color: var(--primary-text-color);
   background: var(--accent-color);
 }
-.icon-link:hover {
-  fill: var(--primary-text-color);
-}
+
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -411,11 +411,13 @@ img {
   border-radius: 4px;
   align-items: center;
   justify-content: center;
-  fill: #afb1b8;
+  color: #afb1b8;
 }
-
+.clients-icon {
+  fill: currentColor;
+}
 .clients-link:hover {
-  fill: var(--accent-color);
+  color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
